@@ -6,18 +6,18 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestContainsDuplicate(t *testing.T) {
+func TestValidAnagram(t *testing.T) {
 	tests := []struct {
-		in  []int
+		in1 string
+		in2 string
 		expected bool
 	}{
-		{[]int{1, 2, 3, 1}, true},
-		{[]int{1, 2, 3, 4}, false},
-		{[]int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}, true},
+		{"anagram", "nagaram", true},
+		{"rat", "car", false},
 	}
 
 	for _, test := range tests {
-		result := containsDuplicate(test.in)
+		result := isAnagram(test.in1, test.in2)
 		assert.Equal(t, test.expected, result)
 	}
 }
