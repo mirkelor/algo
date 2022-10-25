@@ -3,18 +3,28 @@ package blind75
 import "strings"
 
 func isPalindrome(s string) bool {
-	var sb strings.Builder
-	s = strings.ToLower(s)
-	for _, c := range s {
-		if ('a' <= c && c <= 'z') || ('0' <= c && c <= '9') {
-			sb.WriteRune(c)
+	start := 0
+	end := len(s) - 1
+	for start < end {
+		if !isValid(s[start]) {
+			start++
+			continue
 		}
-	}
-	s = sb.String()
-	for i := 0; i < len(s)/2; i++ {
-		if s[i] != s[len(s)-i-1] {
+		if !isValid(s[end]) {
+			end--
+			continue
+		}
+		if !strings.EqualFold(string(s[start]), string(s[end])) {
 			return false
 		}
+		start++
+		end--
 	}
 	return true
+}
+
+func isValid(c byte) bool {
+	return ('a' <= c && c <= 'z') ||
+		('A' <= c && c <= 'Z') ||
+		('0' <= c && c <= '9')
 }
