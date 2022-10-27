@@ -6,11 +6,11 @@ func isPalindrome(s string) bool {
 	start := 0
 	end := len(s) - 1
 	for start < end {
-		if !isValid(s[start]) {
+		if !isValidPalindrome(s[start]) {
 			start++
 			continue
 		}
-		if !isValid(s[end]) {
+		if !isValidPalindrome(s[end]) {
 			end--
 			continue
 		}
@@ -23,7 +23,7 @@ func isPalindrome(s string) bool {
 	return true
 }
 
-func isValid(c byte) bool {
+func isValidPalindrome(c byte) bool {
 	return ('a' <= c && c <= 'z') ||
 		('A' <= c && c <= 'Z') ||
 		('0' <= c && c <= '9')
