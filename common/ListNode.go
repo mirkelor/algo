@@ -7,7 +7,7 @@ type ListNode struct {
 
 func NewListNode(args ...int) *ListNode {
 	if len(args) == 0 {
-		return new(ListNode)
+		return nil
 	}
 	root := new(ListNode)
 	dummy := root
@@ -21,7 +21,7 @@ func NewListNode(args ...int) *ListNode {
 
 func NewListNodeWithCycle(pos int, args ...int) *ListNode {
 	if len(args) == 0 {
-		return new(ListNode)
+		return nil
 	}
 	if pos < 0 || pos >= len(args) {
 		return NewListNode(args...)
