@@ -2,16 +2,9 @@ package blind75
 
 import "github.com/Mirkelor/algo/common"
 
-func reverseList(head *common.ListNode) *common.ListNode {
-	dummy := head
-	var prev *common.ListNode = nil
-
-	for dummy != nil {
-		next := dummy.Next
-		dummy.Next = prev
-		prev = dummy
-		dummy = next
+func reverseList(head *common.ListNode) (prev *common.ListNode) {
+	for head != nil {
+		head.Next, prev, head = prev, head, head.Next
 	}
-
-	return prev
+	return
 }
