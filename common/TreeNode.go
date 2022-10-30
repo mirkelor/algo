@@ -11,7 +11,7 @@ func NewTreeNode(values ...int) *TreeNode {
 }
 
 func insertTreeNodeLevelOrder(values []int, i int) *TreeNode {
-	if i >= len(values) {
+	if i >= len(values) || values[i] == -1 {
 		return nil
 	}
 	root := &TreeNode{Val: values[i]}
