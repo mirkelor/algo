@@ -25,5 +25,6 @@ Blind 75 is a list of 75 most frequent asked leetcode questions which helped man
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                             | [Go](./leetcode/blind75/0226.InvertBinaryTree.go)           | Easy       | Tree              |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)         | [Go](./leetcode/blind75/0238.ProductOfArrayExceptSelf.go)   | Medium     | Array             |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                       | [Go](./leetcode/blind75/0242.ValidAnagram.go)               | Easy       | Array, Hash Table |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                   | [Go](./leetcode/blind75/0347.TopKFrequentElements.go)       | Medium     | Array, Hash Table |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)           | [Go](./leetcode/blind75/0417.PacificAtlanticWaterFlow.go)   | Medium     | Graph             |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)                   | [Go](./leetcode/blind75/0572.SubtreeOfAnotherTree.go)       | Easy       | Tree              |
