@@ -15,6 +15,7 @@ Blind 75 is a list of 75 most frequent asked leetcode questions which helped man
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                               | [Go](./leetcode/blind75/0100.SameTree.go)                   | Easy       | Tree              |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)         | [Go](./leetcode/blind75/0104.MaximumDepthOfBinaryTree.go)   | Easy       | Tree              |
 | 121 | [Best Time to Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   | [Go](./leetcode/blind75/0121.BestTimeToBuyAndSellStock.go)  | Easy       | Sliding Window    |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)         | [Go](./leetcode/blind75/0128.LongestConsecutiveSequence.go) | Medium     | Array, Hash Table |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                 | [Go](./leetcode/blind75/0125.ValidPalindrome.go)            | Easy       | Two Pointers      |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                           | [Go](./leetcode/blind75/0133.CloneGraph.go)                 | Medium     | Graph             |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                               | [Go](./leetcode/blind75/0141.LinkedListCycle.go)            | Easy       | Linked List       |
