@@ -6,6 +6,7 @@ Blind 75 is a list of 75 most frequent asked leetcode questions which helped man
 | #   | Problem                                                                                             | Solution                                                    | Difficulty | Tags              |
 | --- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- | ----------------- |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                   | [Go](./leetcode/blind75/0001.TwoSum.go)                     | Easy       | Array, Hash Table |
+| 15  | [Three Sum](https://leetcode.com/problems/3sum/)                                                    | [Go](./leetcode/blind75/0015.ThreeSum.go)                   | Medium     | Two Pointers      |
 | 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Go](./leetcode/blind75/0019.RemoveNthNodeFromEndOfList.go) | Medium     | Linked List       |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               | [Go](./leetcode/blind75/0020.ValidParentheses.go)           | Easy       | Stack             |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                     | [Go](./leetcode/blind75/0021.MergeTwoSortedLists.go)        | Easy       | Linked List       |
