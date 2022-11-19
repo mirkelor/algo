@@ -17,3 +17,12 @@ func Min[T Number](a, b T) T {
 	}
 	return b
 }
+
+func FindIndex[T Number](slice []T, target T) int {
+	for i, v := range slice {
+		if v == target {
+			return i
+		}
+	}
+	return -1
+}
