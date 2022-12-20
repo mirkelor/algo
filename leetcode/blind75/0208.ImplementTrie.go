@@ -12,10 +12,10 @@ func TrieConstructor() Trie {
 func (t *Trie) Insert(word string) {
 	cur := t
 	for i := 0; i < len(word); i++ {
-		if _, ok := cur.children[word[i]-'a']; !ok {
-			cur.children[word[i]-'a'] = &Trie{children: make(map[byte]*Trie)}
+		if _, ok := cur.children[word[i]]; !ok {
+			cur.children[word[i]] = &Trie{children: make(map[byte]*Trie)}
 		}
-		cur = cur.children[word[i]-'a']
+		cur = cur.children[word[i]]
 	}
 	cur.isWord = true
 }
@@ -23,10 +23,10 @@ func (t *Trie) Insert(word string) {
 func (t *Trie) Search(word string) bool {
 	cur := t
 	for i := 0; i < len(word); i++ {
-		if _, ok := cur.children[word[i]-'a']; !ok {
+		if _, ok := cur.children[word[i]]; !ok {
 			return false
 		}
-		cur = cur.children[word[i]-'a']
+		cur = cur.children[word[i]]
 	}
 	return cur.isWord
 }
@@ -34,10 +34,10 @@ func (t *Trie) Search(word string) bool {
 func (t *Trie) StartsWith(prefix string) bool {
 	cur := t
 	for i := 0; i < len(prefix); i++ {
-		if _, ok := cur.children[prefix[i]-'a']; !ok {
+		if _, ok := cur.children[prefix[i]]; !ok {
 			return false
 		}
-		cur = cur.children[prefix[i]-'a']
+		cur = cur.children[prefix[i]]
 	}
 	return true
 }
