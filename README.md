@@ -1,6 +1,23 @@
-### Blind 75 Leetcode Coding Interview Problem Solutions
+## Blind 75 Leetcode Coding Interview Problem Solutions
 
-Blind 75 is a list of 75 most frequent asked leetcode questions which helped many developers to prepare interviews of FAANG.
+This repository provides a curated list of the top 75 LeetCode algorithm questions, along with their solutions in Golang. It has been carefully prepared by the Facebook Tech Lead in his interview preparation.
+Blind 75 is helped many developers to prepare interviews for top tech companies aka FAANG.
+
+### Purpose
+The purpose of this repository is to save time and streamline your interview preparation by providing a curated set of algorithm questions. By focusing on these selected 75 LeetCode questions, you can cover a wide range of fundamental algorithms and data structures commonly asked in technical interviews.
+
+### Features
+Questions are categorized based on problem types such as arrays, linked lists, binary trees, dynamic programming, and more.
+Each question includes a detailed solution implemented in Go.
+Solutions are thoroughly tested and optimized to ensure correctness and efficiency.
+
+### Contribution
+We welcome contributions from the community to enhance this curated list. If you have improvements to existing solutions, please submit a pull request or open an issue.
+
+### Resources
+Teamblind Post: [Curated List of Top 75 LeetCode Questions](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+
+Feel free to explore this repository of LeetCode algorithm questions and their solutions in Go. It will help you prepare effectively for technical interviews. Good luck!
 
 # Blind 75
 | #    | Problem                                                                                                                                               | Solution                                                                            | Difficulty | Tags                |
