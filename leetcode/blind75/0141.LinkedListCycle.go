@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func hasCycle(head *common.ListNode) bool {
 	slow, fast := head, head

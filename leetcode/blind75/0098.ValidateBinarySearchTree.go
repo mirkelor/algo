@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func isValidBST(root *common.TreeNode) bool {
 	return isValidBSTHelper(root, -1<<63, 1<<63-1)

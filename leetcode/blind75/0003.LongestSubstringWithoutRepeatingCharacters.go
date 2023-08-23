@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func lengthOfLongestSubstring(s string) int {
 	l, max, count := 0, 0, make(map[byte]int)

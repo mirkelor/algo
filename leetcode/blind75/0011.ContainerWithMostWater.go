@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func maxArea(height []int) int {
 	max, left, right := 0, 0, len(height)-1

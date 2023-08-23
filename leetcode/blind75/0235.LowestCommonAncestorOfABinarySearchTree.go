@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func lowestCommonAncestor(root, p, q *common.TreeNode) *common.TreeNode {
 	if p.Val < root.Val && q.Val < root.Val {

@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func coinChange(coins []int, amount int) int {
 	dp := make([]int, amount+1)

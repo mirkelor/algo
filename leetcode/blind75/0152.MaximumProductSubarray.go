@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func maxProduct(nums []int) int {
 	l, r, res := 0, 0, nums[0]

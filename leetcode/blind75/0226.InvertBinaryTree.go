@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func invertTree(root *common.TreeNode) *common.TreeNode {
 	if root == nil {

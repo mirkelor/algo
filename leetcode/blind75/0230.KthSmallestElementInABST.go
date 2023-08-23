@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func kthSmallest(root *common.TreeNode, k int) int {
 	res := -1

@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func maxPathSum(root *common.TreeNode) int {
 	res := -1 << 31

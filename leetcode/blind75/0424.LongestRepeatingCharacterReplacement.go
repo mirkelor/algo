@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func characterReplacement(s string, k int) int {
 	l, res, maxf, count := 0, 0, 0, make(map[byte]int)

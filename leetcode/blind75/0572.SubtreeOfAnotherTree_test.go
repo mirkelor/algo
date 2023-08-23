@@ -3,7 +3,7 @@ package blind75
 import (
 	"testing"
 
-	"github.com/Mirkelor/algo/common"
+	"github.com/mirkelor/algo/common"
 	"github.com/stretchr/testify/assert"
 )
 

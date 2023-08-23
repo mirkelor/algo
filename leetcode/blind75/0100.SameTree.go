@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func isSameTree(p *common.TreeNode, q *common.TreeNode) bool {
 	if p == nil && q == nil {

@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func mergeKLists(lists []*common.ListNode) *common.ListNode {
 	if len(lists) == 0 {

@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Mirkelor/algo/common"
+	"github.com/mirkelor/algo/common"
 )
 
 type Codec struct {

@@ -3,7 +3,7 @@ package blind75
 import (
 	"sort"
 
-	"github.com/Mirkelor/algo/common"
+	"github.com/mirkelor/algo/common"
 )
 
 func eraseOverlapIntervals(intervals [][]int) int {

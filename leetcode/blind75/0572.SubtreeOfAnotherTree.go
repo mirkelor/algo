@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func isSubtree(root *common.TreeNode, subRoot *common.TreeNode) bool {
 	if root == nil {

@@ -1,6 +1,6 @@
 package blind75
 
-import "github.com/Mirkelor/algo/common"
+import "github.com/mirkelor/algo/common"
 
 func buildTree(preorder []int, inorder []int) *common.TreeNode {
 	if len(preorder) == 0 || len(inorder) == 0 {

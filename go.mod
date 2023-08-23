@@ -1,4 +1,4 @@
-module github.com/Mirkelor/algo
+module github.com/mirkelor/algo
 
 go 1.19
 
